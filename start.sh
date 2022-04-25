@@ -1,10 +1,10 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  https://github.com/TOXIC4LIEN/Toxic-Ro-Bot.git
+https://github.com/TOXIC4LIEN/Toxic-Ro-Bot.git
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /Toxic-Ro-Bot.git
+  git clone $UPSTREAM_REPO /Toxic-Ro-Bot
 fi
 cd Toxic-Ro-Bot
 pip3 install -U -r requirements.txt
